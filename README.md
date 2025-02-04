@@ -4,10 +4,10 @@
 **Deep Image Prior**
 - Deep Image Prior Repo : [ https://github.com/DmitryUlyanov/deep-image-prior.git ]
 - **Features**
--> **Image Denoising**: Removes noise from corrupted images using DIP.
--> **Image Inpainting**: Fills missing parts of an image using learned priors.
--> **GPU Acceleration**: Supports CUDA and cuDNN for efficient computation.
--> **Web Interface**: Uses **Streamlit** for an interactive user interface.
+> **Image Denoising**: Removes noise from corrupted images using DIP.
+> **Image Inpainting**: Fills missing parts of an image using learned priors.
+> **GPU Acceleration**: Supports CUDA and cuDNN for efficient computation.
+> **Web Interface**: Uses **Streamlit** for an interactive user interface.
 
 ## Instructions
 
