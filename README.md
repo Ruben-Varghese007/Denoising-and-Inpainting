@@ -52,6 +52,14 @@ streamlit run deploy.py
 
 ## Requirements
 
+- Install required libraries:
+
+```sh
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117  # Ensure correct CUDA version
+pip install numpy matplotlib tqdm opencv-python
+pip install streamlit
+```
+
 **PyTorch**:
 
 ```sh
@@ -64,7 +72,28 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install streamlit
 ```
 
+Ensure you have **CUDA** and **cuDNN** installed and properly configured for GPU acceleration.
+
+### **Install Dependencies**
+
+#### **1. Setup CUDA & cuDNN (For GPU Support)**
+- Install **NVIDIA CUDA Toolkit** (Recommended: CUDA 11.7+)
+- Install **cuDNN** and configure environment variables
+- Verify installation using:
+
+  ```sh
+  nvcc --version  # Check CUDA version
+  ```
+
 ### Recommendation
 
 - It is highly recommended to run the programs on a GPU for better performance and efficiency.
+
+## Acknowledgments
+This project is based on **[Deep Image Prior](https://github.com/DmitryUlyanov/deep-image-prior)** by **Dmitry Ulyanov**, licensed under **Apache 2.0**. Some resources from the original repository have been used in this project.
+
+## License
+This project is licensed under the **Apache License 2.0**. Please refer to the [LICENSE](LICENSE) file for details.
+
+> **Note:** The original author requests to be contacted for commercial use of this software.
 
