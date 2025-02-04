@@ -57,7 +57,7 @@ streamlit run deploy.py
 
 ## Requirements
 
-- Install required libraries:
+### Install required libraries:
 
 **PyTorch**:
 
