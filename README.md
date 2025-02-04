@@ -1,7 +1,7 @@
 # Denoising and Inpainting
 ### An Implementation of Deep Image Prior for Denoising and Inpainting.
 
-->**Deep Image Prior**
+-> **Deep Image Prior**
 - Deep Image Prior Repo : [ https://github.com/DmitryUlyanov/deep-image-prior.git ]
 
 -> **Features**
