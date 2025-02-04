@@ -2,7 +2,7 @@
 ### An Implementation of Deep Image Prior for Denoising and Inpainting.
 
 **Deep Image Prior**
--> An Implementation of Deep Image Prior for Denoising and Inpainting
+- An Implementation of Deep Image Prior for Denoising and Inpainting
 - Deep Image Prior Repo : [ https://github.com/DmitryUlyanov/deep-image-prior.git ]
 
 ## Instructions
@@ -14,26 +14,25 @@
   ```
 - Clone the **IoT_Object_Detection_YOLOv5** repository
   ```sh
-  git clone https://github.com/Ruben-Varghese007/IoT_Object_Detection_YOLOv5.git
+  git clone https://github.com/Ruben-Varghese007/Denoising-and-Inpainting.git
   ```
   
 ### To run on Command Prompt
 > Open cmd
 
 ### Navigate to File Location
+- Allows for change of the current working directory
 ```sh
 cd
 ```
+- For example - if the file is present in F Drive
 ```sh
 F:
 ```
+- Navigate to the deep image prior directory - F:\deep-image-prior
 ```sh
 cd deep-image-prior
 ```
-
-> cd (allows for change of the current working directory)
-> F: (for example - if file present in F Drive)
-> cd deep-image-prior (navigate to the deep image prior directory - F:\deep-image-prior)
 
 ### Activate Virtual Environment
 ```sh
@@ -53,10 +52,10 @@ streamlit run deploy.py
 
 ## Requirements
 
-**Pygame**:
+**PyTorch**:
 
 ```sh
-pip install pygame
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117  # Ensure correct CUDA version
 ```
 
 **Streamlit**:
@@ -64,3 +63,5 @@ pip install pygame
 ```sh
 pip install streamlit
 ```
+
+- Recommend to Run the programs on GPU
