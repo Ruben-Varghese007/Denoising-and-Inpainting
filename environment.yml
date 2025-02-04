@@ -1,0 +1,17 @@
+name: deep-image-prior
+channels:
+- pytorch
+- defaults
+dependencies:
+- jupyter
+- nb_conda
+- numpy
+- pyyaml
+- mkl
+- setuptools
+- cmake
+- cffi
+- pytorch=1.8.0
+- matplotlib
+- scikit-image
+- torchvision
