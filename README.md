@@ -3,6 +3,7 @@
 
 **Deep Image Prior**
 - Deep Image Prior Repo : [ https://github.com/DmitryUlyanov/deep-image-prior.git ]
+
 **Features**
 - **Image Denoising**: Removes noise from corrupted images using DIP.
 - **Image Inpainting**: Fills missing parts of an image using learned priors.
