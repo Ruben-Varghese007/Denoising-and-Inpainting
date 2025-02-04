@@ -6,6 +6,13 @@
    This project is based on [deep-image-prior] by [DmitryUlyanov], licensed under the Apache License 2.0.
    Some resources from the original repository have been used in this project.
 
+   Per the original repository's notice:
+   "Apache License 2.0  
+   But please contact me if you want to use this software in a commercial application.
+   Note that Apache License 2.0 asks to include a copyright notice if you use this software."
+
+   In accordance with the Apache License 2.0, this project includes a copyright notice for the original work.
+
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
