@@ -18,7 +18,7 @@
   ```
   
 ### To run on Command Prompt
-> Open cmd
+- Open cmd
 
 ### Navigate to File Location
 - Allows for change of the current working directory
@@ -64,4 +64,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install streamlit
 ```
 
-- Recommend to Run the programs on GPU
+### Recommendation
+
+- It is highly recommended to run the programs on a GPU for better performance and efficiency.
+
