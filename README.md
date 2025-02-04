@@ -3,11 +3,11 @@
 
 **Deep Image Prior**
 - Deep Image Prior Repo : [ https://github.com/DmitryUlyanov/deep-image-prior.git ]
-- **Features**
-> **Image Denoising**: Removes noise from corrupted images using DIP.
-> **Image Inpainting**: Fills missing parts of an image using learned priors.
-> **GPU Acceleration**: Supports CUDA and cuDNN for efficient computation.
-> **Web Interface**: Uses **Streamlit** for an interactive user interface.
+**Features**
+- **Image Denoising**: Removes noise from corrupted images using DIP.
+- **Image Inpainting**: Fills missing parts of an image using learned priors.
+- **GPU Acceleration**: Supports CUDA and cuDNN for efficient computation.
+- **Web Interface**: Uses **Streamlit** for an interactive user interface.
 
 ## Instructions
 
@@ -58,12 +58,6 @@ streamlit run deploy.py
 
 - Install required libraries:
 
-```sh
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117  # Ensure correct CUDA version
-pip install numpy matplotlib tqdm opencv-python
-pip install streamlit
-```
-
 **PyTorch**:
 
 ```sh
@@ -74,6 +68,11 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 ```sh
 pip install streamlit
+```
+
+**Others**:
+```sh
+pip install numpy matplotlib tqdm opencv-python
 ```
 
 Ensure you have **CUDA** and **cuDNN** installed and properly configured for GPU acceleration.
@@ -98,6 +97,5 @@ This project is based on **[Deep Image Prior](https://github.com/DmitryUlyanov/d
 
 ## License
 This project is licensed under the **Apache License 2.0**. Please refer to the [LICENSE](LICENSE) file for details.
-
-> **Note:** The original author requests to be contacted for commercial use of this software.
+**Note:** The original author requests to be contacted for commercial use of this software.
 
