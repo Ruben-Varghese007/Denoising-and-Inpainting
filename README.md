@@ -53,7 +53,6 @@ conda activate deep-image-prior
 ```sh
 python -m venv deep-image-prior
 ```
-
 ```sh
 deep-image-prior\Scripts\activate
 ```
