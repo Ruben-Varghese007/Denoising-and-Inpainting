@@ -55,6 +55,7 @@ conda activate deep-image-prior
 ```sh
 python -m venv deep-image-prior
 ```
+
 ### Activate Virtual Environment (Python)
 ```sh
 deep-image-prior\Scripts\activate
