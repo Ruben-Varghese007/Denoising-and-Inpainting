@@ -41,27 +41,27 @@ cd deep-image-prior
 
 ### Create a Virtual Environment using Anaconda or Python
 
-- ### Create Virtual Environment (Anaconda)
-```sh
-conda create --name deep-image-prior
-```
+- #### Create Virtual Environment (Anaconda)
+  ```sh
+  conda create --name deep-image-prior
+  ```
 
-- ### Activate Virtual Environment (Anaconda)
-```sh
-conda activate deep-image-prior
-```
+- #### Activate Virtual Environment (Anaconda)
+  ```sh
+  conda activate deep-image-prior
+  ```
 
 #### OR
 
-- ### Create Virtual Environment (Python)
-```sh
-python -m venv deep-image-prior
-```
+- #### Create Virtual Environment (Python)
+  ```sh
+  python -m venv deep-image-prior
+  ```
 
 - #### Activate Virtual Environment (Python)
-```sh
-deep-image-prior\Scripts\activate
-```
+  ```sh
+  deep-image-prior\Scripts\activate
+  ```
 
 ### Run Code
 ```sh
