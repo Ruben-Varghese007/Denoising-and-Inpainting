@@ -44,14 +44,16 @@ cd deep-image-prior
 conda create --name deep-image-prior
 ```
 
-### Create Virtual Environment (Python)
-```sh
-python -m venv deep-image-prior
-```
-
 ### Activate Virtual Environment (Anaconda)
 ```sh
 conda activate deep-image-prior
+```
+
+### OR
+
+### Create Virtual Environment (Python)
+```sh
+python -m venv deep-image-prior
 ```
 
 ### Activate Virtual Environment (Python)
