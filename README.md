@@ -51,7 +51,7 @@ cd deep-image-prior
   conda activate deep-image-prior
   ```
 
-#### OR
+ #### OR
 
 - #### Create Virtual Environment (Python)
   ```sh
