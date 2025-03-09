@@ -17,7 +17,7 @@
   ```sh
   cd path_to_your_project
   ```
-- Clone the **IoT_Object_Detection_YOLOv5** repository
+- Clone the **Denoising-and-Inpainting** repository
   ```sh
   git clone https://github.com/Ruben-Varghese007/Denoising-and-Inpainting.git
   ```
