@@ -118,5 +118,5 @@ This project is based on **[Deep Image Prior](https://github.com/DmitryUlyanov/d
 ## License
 This project is licensed under the **Apache License 2.0**. Please refer to the [LICENSE](LICENSE) file for details.
 
-**Note:** The original author requests to be contacted for commercial use of this software..
+**Note:** The original author requests to be contacted for commercial use of this software.
 
