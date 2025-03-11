@@ -8,7 +8,7 @@
 - **Image Denoising**: Removes noise from corrupted images using DIP.
 - **Image Inpainting**: Fills missing parts of an image using learned priors.
 - **GPU Acceleration**: Supports CUDA and cuDNN for efficient computation.
-- **Web Interface**: Uses **Streamlit** for an interactive user interface.
+- **Web Interface**: Uses **Streamlit** and **Gradio** for an interactive user interface.
 
 ## Instructions
 
